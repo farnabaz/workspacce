@@ -1,4 +1,3 @@
-
 # Git Aliases
 
 alias g='git'
