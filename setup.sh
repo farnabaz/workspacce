@@ -13,4 +13,9 @@ EOF
 fi;
 
 # Copy aliases to home
-cp ./.bash_aliases ~/.bash_aliases
+cat > /home/gitpod/.bash_aliases <<EOF
+alias g='git'
+alias gp='git push'
+alias go='git checkout'
+EOF
+
